@@ -8,7 +8,7 @@
 
 #include "BoundingBoxes.cpp"
 
-#define NUMBERPAGES       10
+#define NUMBERPAGES       15
 
 class OMPWorkShare
         {
@@ -35,7 +35,7 @@ public:
         }
 
 #pragma omp for schedule(static,chunk)
-        for (j=0; j< NUMBERPAGES; j++)
+        for (j=1; j<= NUMBERPAGES; j++)
         {
             //printf("I want to process 10 pages for Flyers \n");
             //printf("Thread %d: index is %d . It could be the page number \n",tid,j);
