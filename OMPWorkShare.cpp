@@ -14,6 +14,9 @@ public:
         int nthreads, tid, i, chunk;
         int j;
 
+#pragma omp parallel shared(a,b,c,nthreads,chunk) private(i,tid)
+        {
 
+        }
     }
 };
