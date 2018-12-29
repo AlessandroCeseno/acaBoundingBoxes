@@ -46,7 +46,7 @@ public:
         }
         imshow( "Contours", drawing );
 
-        imwrite( "second.jpg", drawing );
+        //imwrite( "second.jpg", drawing );
 
 
     }
