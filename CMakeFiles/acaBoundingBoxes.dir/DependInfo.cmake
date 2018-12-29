@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/xpuser/CLionProjects/acaBoundingBoxes/OMPWorkShare.cpp" "/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.o"
-  "/Users/xpuser/CLionProjects/acaBoundingBoxes/main.cpp" "/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles/acaBoundingBox.dir/main.cpp.o"
+  "/Users/xpuser/CLionProjects/acaBoundingBoxes/OMPWorkShare.cpp" "/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles/acaBoundingBoxes.dir/OMPWorkShare.cpp.o"
+  "/Users/xpuser/CLionProjects/acaBoundingBoxes/main.cpp" "/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles/acaBoundingBoxes.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

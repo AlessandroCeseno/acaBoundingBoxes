@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named acaBoundingBox
+# Target rules for targets named acaBoundingBoxes
 
 # Build rule for target.
-acaBoundingBox: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 acaBoundingBox
-.PHONY : acaBoundingBox
+acaBoundingBoxes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 acaBoundingBoxes
+.PHONY : acaBoundingBoxes
 
 # fast build rule for target.
-acaBoundingBox/fast:
-	$(MAKE) -f CMakeFiles/acaBoundingBox.dir/build.make CMakeFiles/acaBoundingBox.dir/build
-.PHONY : acaBoundingBox/fast
+acaBoundingBoxes/fast:
+	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/build
+.PHONY : acaBoundingBoxes/fast
 
 OMPWorkShare.o: OMPWorkShare.cpp.o
 
@@ -129,7 +129,7 @@ OMPWorkShare.o: OMPWorkShare.cpp.o
 
 # target to build an object file
 OMPWorkShare.cpp.o:
-	$(MAKE) -f CMakeFiles/acaBoundingBox.dir/build.make CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.o
+	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/OMPWorkShare.cpp.o
 .PHONY : OMPWorkShare.cpp.o
 
 OMPWorkShare.i: OMPWorkShare.cpp.i
@@ -138,7 +138,7 @@ OMPWorkShare.i: OMPWorkShare.cpp.i
 
 # target to preprocess a source file
 OMPWorkShare.cpp.i:
-	$(MAKE) -f CMakeFiles/acaBoundingBox.dir/build.make CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.i
+	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/OMPWorkShare.cpp.i
 .PHONY : OMPWorkShare.cpp.i
 
 OMPWorkShare.s: OMPWorkShare.cpp.s
@@ -147,7 +147,7 @@ OMPWorkShare.s: OMPWorkShare.cpp.s
 
 # target to generate assembly for a file
 OMPWorkShare.cpp.s:
-	$(MAKE) -f CMakeFiles/acaBoundingBox.dir/build.make CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.s
+	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/OMPWorkShare.cpp.s
 .PHONY : OMPWorkShare.cpp.s
 
 main.o: main.cpp.o
@@ -156,7 +156,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/acaBoundingBox.dir/build.make CMakeFiles/acaBoundingBox.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +165,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/acaBoundingBox.dir/build.make CMakeFiles/acaBoundingBox.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +174,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/acaBoundingBox.dir/build.make CMakeFiles/acaBoundingBox.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... acaBoundingBox"
+	@echo "... acaBoundingBoxes"
 	@echo "... OMPWorkShare.o"
 	@echo "... OMPWorkShare.i"
 	@echo "... OMPWorkShare.s"

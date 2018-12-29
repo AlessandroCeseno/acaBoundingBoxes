@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /Users/xpuser/CLionProjects/acaBoundingBoxes
 CMAKE_BINARY_DIR = /Users/xpuser/CLionProjects/acaBoundingBoxes
 
 #=============================================================================
-# Target rules for target CMakeFiles/acaBoundingBox.dir
+# Target rules for target CMakeFiles/acaBoundingBoxes.dir
 
 # All Build rule for target.
-CMakeFiles/acaBoundingBox.dir/all:
-	$(MAKE) -f CMakeFiles/acaBoundingBox.dir/build.make CMakeFiles/acaBoundingBox.dir/depend
-	$(MAKE) -f CMakeFiles/acaBoundingBox.dir/build.make CMakeFiles/acaBoundingBox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles --progress-num=1,2,3 "Built target acaBoundingBox"
-.PHONY : CMakeFiles/acaBoundingBox.dir/all
+CMakeFiles/acaBoundingBoxes.dir/all:
+	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/depend
+	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles --progress-num=1,2,3 "Built target acaBoundingBoxes"
+.PHONY : CMakeFiles/acaBoundingBoxes.dir/all
 
 # Include target in all.
-all: CMakeFiles/acaBoundingBox.dir/all
+all: CMakeFiles/acaBoundingBoxes.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/acaBoundingBox.dir/rule: cmake_check_build_system
+CMakeFiles/acaBoundingBoxes.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/acaBoundingBox.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/acaBoundingBoxes.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles 0
-.PHONY : CMakeFiles/acaBoundingBox.dir/rule
+.PHONY : CMakeFiles/acaBoundingBoxes.dir/rule
 
 # Convenience name for target.
-acaBoundingBox: CMakeFiles/acaBoundingBox.dir/rule
+acaBoundingBoxes: CMakeFiles/acaBoundingBoxes.dir/rule
 
-.PHONY : acaBoundingBox
-
-# clean rule for target.
-CMakeFiles/acaBoundingBox.dir/clean:
-	$(MAKE) -f CMakeFiles/acaBoundingBox.dir/build.make CMakeFiles/acaBoundingBox.dir/clean
-.PHONY : CMakeFiles/acaBoundingBox.dir/clean
+.PHONY : acaBoundingBoxes
 
 # clean rule for target.
-clean: CMakeFiles/acaBoundingBox.dir/clean
+CMakeFiles/acaBoundingBoxes.dir/clean:
+	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/clean
+.PHONY : CMakeFiles/acaBoundingBoxes.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/acaBoundingBoxes.dir/clean
 
 .PHONY : clean
 
