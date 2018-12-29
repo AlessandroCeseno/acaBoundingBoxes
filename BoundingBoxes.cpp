@@ -20,7 +20,7 @@ public:
     int thresh = 225;
     RNG rng = RNG(12345);
 
-    void thresh_meth()
+    void thresh_meth(string pagenumber)
     {
         Mat canny_output;
         Canny( src_gray, canny_output, thresh, thresh*2 );
@@ -46,7 +46,7 @@ public:
         }
         //imshow( "Contours", drawing );
 
-        imwrite("../outputacaBoundingBoxes/1.jpg", drawing );
+        imwrite("../outputacaBoundingBoxes/" + pagenumber + ".jpg", drawing );
     }
 
 
@@ -72,7 +72,7 @@ public:
 
             //      createTrackbar( "Canny thresh:", source_window, &thresh, max_thresh, thresh_callback );
             //      thresh_callback( 0, 0 );
-            thresh_meth();
+            thresh_meth(indexpageasstring);
 
             //waitKey();
         }
