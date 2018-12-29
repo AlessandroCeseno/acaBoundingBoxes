@@ -19,6 +19,8 @@ public:
     int thresh = 100;
     RNG rng = RNG(12345);
 
+    void workOnThisPage(int indexpage)
+    {
 
-
+    }
 };

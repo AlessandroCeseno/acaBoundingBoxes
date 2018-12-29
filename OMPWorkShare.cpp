@@ -6,6 +6,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "BoundingBoxes.cpp"
+
 #define NUMBERPAGES       10
 
 class OMPWorkShare
@@ -18,6 +20,7 @@ public:
     {
         int nthreads, tid, i, chunk;
         int j;
+        BoundingBoxes boundingBoxes = BoundingBoxes();
 
 #pragma omp parallel shared(nthreads,chunk) private(i,tid)
         {
@@ -38,7 +41,7 @@ public:
             //printf("Thread %d: index is %d . It could be the page number \n",tid,j);
             printf(" INDEX %d \n",j);
 
-            //boundingBoxes.workOnThisPage(j);
+            boundingBoxes.workOnThisPage(j);
         }
 
 

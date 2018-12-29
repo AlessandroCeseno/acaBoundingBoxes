@@ -12,25 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba44c3d5-b63e-447f-9685-bca843b090da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BoundingBoxes.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/OMPWorkShare.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/OMPWorkShare.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acaBoundingBoxes.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/acaBoundingBoxes.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoundingBoxes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BoundingBoxes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/OMPWorkShare.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/acaBoundingBoxes.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OMPWorkShare.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OMPWorkShare.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acaBoundingBoxes" beforeDir="false" afterPath="$PROJECT_DIR$/acaBoundingBoxes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acaBoundingBoxes.dSYM/Contents/Resources/DWARF/acaBoundingBoxes" beforeDir="false" afterPath="$PROJECT_DIR$/acaBoundingBoxes.dSYM/Contents/Resources/DWARF/acaBoundingBoxes" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -67,10 +54,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OMPWorkShare.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="290">
+              <caret line="43" column="36" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="40" />
               <folding>
-                <element signature="e#53#69#0" expanded="true" />
+                <element signature="e#42#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BoundingBoxes.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="350">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
@@ -97,8 +84,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/OMPWorkShare.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/OMPWorkShare.cpp" />
         <option value="$PROJECT_DIR$/BoundingBoxes.cpp" />
       </list>
     </option>
@@ -165,12 +152,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546081442665</updated>
       <workItem from="1546081444097" duration="3546000" />
-      <workItem from="1546086330611" duration="1019000" />
+      <workItem from="1546086330611" duration="1239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4565000" />
+    <option name="totallyTimeSpent" value="4785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="842" extended-state="6" />
@@ -206,13 +193,6 @@
     <entry file="file://$PROJECT_DIR$/BoundingBoxes.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -223,20 +203,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OMPWorkShare.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="290">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="40" />
           <folding>
-            <element signature="e#53#69#0" expanded="true" />
+            <element signature="e#42#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BoundingBoxes.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="350">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
