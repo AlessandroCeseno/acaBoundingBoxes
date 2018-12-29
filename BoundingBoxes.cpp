@@ -44,11 +44,9 @@ public:
             rectangle( drawing, boundRect[i].tl(), boundRect[i].br(), color, 2 );
             //circle( drawing, centers[i], (int)radius[i], color, 2 );
         }
-        imshow( "Contours", drawing );
+        //imshow( "Contours", drawing );
 
-        //imwrite( "second.jpg", drawing );
-
-
+        imwrite("../outputacaBoundingBoxes/seconda.jpg", drawing );
     }
 
 
