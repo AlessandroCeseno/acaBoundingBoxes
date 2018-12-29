@@ -2,3 +2,6 @@
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/xpuser/CLionProjects/acaBoundingBox/cmake-build-debug
+
+Problems were encountered while collecting compiler information:
+	clang: error: unsupported option '-fopenmp'
