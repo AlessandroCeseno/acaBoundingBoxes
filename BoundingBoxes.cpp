@@ -73,7 +73,7 @@ public:
             //      thresh_callback( 0, 0 );
             thresh_meth();
 
-            waitKey();
+            //waitKey();
         }
     }
 };
