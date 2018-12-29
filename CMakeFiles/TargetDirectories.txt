@@ -1,3 +1,3 @@
-/Users/xpuser/CLionProjects/acaBoundingBox/CMakeFiles/rebuild_cache.dir
-/Users/xpuser/CLionProjects/acaBoundingBox/CMakeFiles/edit_cache.dir
-/Users/xpuser/CLionProjects/acaBoundingBox/CMakeFiles/acaBoundingBox.dir
+/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles/rebuild_cache.dir
+/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles/edit_cache.dir
+/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles/acaBoundingBox.dir

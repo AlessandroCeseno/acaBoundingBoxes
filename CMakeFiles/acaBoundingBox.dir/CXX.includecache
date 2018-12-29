@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/xpuser/CLionProjects/acaBoundingBox/OMPWorkShare.cpp
+/Users/xpuser/CLionProjects/acaBoundingBoxes/OMPWorkShare.cpp
 omp.h
 -
 stdio.h
@@ -14,7 +14,7 @@ stdio.h
 stdlib.h
 -
 
-/Users/xpuser/CLionProjects/acaBoundingBox/main.cpp
+/Users/xpuser/CLionProjects/acaBoundingBoxes/main.cpp
 iostream
 -
 omp.h
@@ -24,7 +24,7 @@ stdio.h
 stdlib.h
 -
 OMPWorkShare.cpp
-/Users/xpuser/CLionProjects/acaBoundingBox/OMPWorkShare.cpp
+/Users/xpuser/CLionProjects/acaBoundingBoxes/OMPWorkShare.cpp
 omp.h
 -
 

@@ -8,71 +8,71 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/xpuser/CLionProjects/acaBoundingBox"/>
+				<Option working_dir="/Users/xpuser/CLionProjects/acaBoundingBoxes"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/xpuser/CLionProjects/acaBoundingBox"/>
+				<Option working_dir="/Users/xpuser/CLionProjects/acaBoundingBoxes"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/xpuser/CLionProjects/acaBoundingBox"/>
+				<Option working_dir="/Users/xpuser/CLionProjects/acaBoundingBoxes"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="acaBoundingBox">
-				<Option output="/Users/xpuser/CLionProjects/acaBoundingBox/acaBoundingBox" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/xpuser/CLionProjects/acaBoundingBox"/>
+				<Option output="/Users/xpuser/CLionProjects/acaBoundingBoxes/acaBoundingBox" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xpuser/CLionProjects/acaBoundingBoxes"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 acaBoundingBox"/>
-					<CompileFile command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 acaBoundingBox"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="acaBoundingBox/fast">
-				<Option output="/Users/xpuser/CLionProjects/acaBoundingBox/acaBoundingBox" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/xpuser/CLionProjects/acaBoundingBox"/>
+				<Option output="/Users/xpuser/CLionProjects/acaBoundingBoxes/acaBoundingBox" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xpuser/CLionProjects/acaBoundingBoxes"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 acaBoundingBox/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBox/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 acaBoundingBox/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/xpuser/CLionProjects/acaBoundingBox/OMPWorkShare.cpp">
+		<Unit filename="/Users/xpuser/CLionProjects/acaBoundingBoxes/OMPWorkShare.cpp">
 			<Option target="acaBoundingBox"/>
 		</Unit>
-		<Unit filename="/Users/xpuser/CLionProjects/acaBoundingBox/main.cpp">
+		<Unit filename="/Users/xpuser/CLionProjects/acaBoundingBoxes/main.cpp">
 			<Option target="acaBoundingBox"/>
 		</Unit>
-		<Unit filename="/Users/xpuser/CLionProjects/acaBoundingBox/CMakeLists.txt">
+		<Unit filename="/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

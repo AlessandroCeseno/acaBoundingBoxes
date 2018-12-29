@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/xpuser/CLionProjects/acaBoundingBox
+CMAKE_SOURCE_DIR = /Users/xpuser/CLionProjects/acaBoundingBoxes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/xpuser/CLionProjects/acaBoundingBox
+CMAKE_BINARY_DIR = /Users/xpuser/CLionProjects/acaBoundingBoxes
 
 # Include any dependencies generated for this target.
 include CMakeFiles/acaBoundingBox.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/acaBoundingBox.dir/flags.make
 
 CMakeFiles/acaBoundingBox.dir/main.cpp.o: CMakeFiles/acaBoundingBox.dir/flags.make
 CMakeFiles/acaBoundingBox.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xpuser/CLionProjects/acaBoundingBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/acaBoundingBox.dir/main.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/acaBoundingBox.dir/main.cpp.o -c /Users/xpuser/CLionProjects/acaBoundingBox/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/acaBoundingBox.dir/main.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/acaBoundingBox.dir/main.cpp.o -c /Users/xpuser/CLionProjects/acaBoundingBoxes/main.cpp
 
 CMakeFiles/acaBoundingBox.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acaBoundingBox.dir/main.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xpuser/CLionProjects/acaBoundingBox/main.cpp > CMakeFiles/acaBoundingBox.dir/main.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xpuser/CLionProjects/acaBoundingBoxes/main.cpp > CMakeFiles/acaBoundingBox.dir/main.cpp.i
 
 CMakeFiles/acaBoundingBox.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acaBoundingBox.dir/main.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xpuser/CLionProjects/acaBoundingBox/main.cpp -o CMakeFiles/acaBoundingBox.dir/main.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xpuser/CLionProjects/acaBoundingBoxes/main.cpp -o CMakeFiles/acaBoundingBox.dir/main.cpp.s
 
 CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.o: CMakeFiles/acaBoundingBox.dir/flags.make
 CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.o: OMPWorkShare.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xpuser/CLionProjects/acaBoundingBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.o -c /Users/xpuser/CLionProjects/acaBoundingBox/OMPWorkShare.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.o -c /Users/xpuser/CLionProjects/acaBoundingBoxes/OMPWorkShare.cpp
 
 CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xpuser/CLionProjects/acaBoundingBox/OMPWorkShare.cpp > CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xpuser/CLionProjects/acaBoundingBoxes/OMPWorkShare.cpp > CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.i
 
 CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xpuser/CLionProjects/acaBoundingBox/OMPWorkShare.cpp -o CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xpuser/CLionProjects/acaBoundingBoxes/OMPWorkShare.cpp -o CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.s
 
 # Object files for target acaBoundingBox
 acaBoundingBox_OBJECTS = \
@@ -95,7 +95,7 @@ acaBoundingBox: CMakeFiles/acaBoundingBox.dir/main.cpp.o
 acaBoundingBox: CMakeFiles/acaBoundingBox.dir/OMPWorkShare.cpp.o
 acaBoundingBox: CMakeFiles/acaBoundingBox.dir/build.make
 acaBoundingBox: CMakeFiles/acaBoundingBox.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xpuser/CLionProjects/acaBoundingBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable acaBoundingBox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable acaBoundingBox"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/acaBoundingBox.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/acaBoundingBox.dir/clean:
 .PHONY : CMakeFiles/acaBoundingBox.dir/clean
 
 CMakeFiles/acaBoundingBox.dir/depend:
-	cd /Users/xpuser/CLionProjects/acaBoundingBox && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/xpuser/CLionProjects/acaBoundingBox /Users/xpuser/CLionProjects/acaBoundingBox /Users/xpuser/CLionProjects/acaBoundingBox /Users/xpuser/CLionProjects/acaBoundingBox /Users/xpuser/CLionProjects/acaBoundingBox/CMakeFiles/acaBoundingBox.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/xpuser/CLionProjects/acaBoundingBoxes && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/xpuser/CLionProjects/acaBoundingBoxes /Users/xpuser/CLionProjects/acaBoundingBoxes /Users/xpuser/CLionProjects/acaBoundingBoxes /Users/xpuser/CLionProjects/acaBoundingBoxes /Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles/acaBoundingBox.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/acaBoundingBox.dir/depend
 
