@@ -6,6 +6,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define NUMBERPAGES       10
+
 class OMPWorkShare
         {
 
@@ -28,5 +30,17 @@ public:
             printf("Thread %d starting...\n",tid);
 
         }
+
+#pragma omp for schedule(static,chunk)
+        for (j=0; j< NUMBERPAGES; j++)
+        {
+            //printf("I want to process 10 pages for Flyers \n");
+            //printf("Thread %d: index is %d . It could be the page number \n",tid,j);
+            printf(" INDEX %d \n",j);
+
+            //boundingBoxes.workOnThisPage(j);
+        }
+
+
     }
 };
