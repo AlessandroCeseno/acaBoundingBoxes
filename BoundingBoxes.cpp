@@ -4,9 +4,10 @@
 #include <iostream>
 #include <stdio.h>
 
+#include "opencv2/imgcodecs.hpp"
+
 #include "opencv2/highgui.hpp"
 #include "opencv2/imgproc.hpp"
-#include "opencv2/imgcodecs.hpp"
 
 using namespace cv;
 using namespace std;
@@ -44,7 +45,9 @@ public:
             circle( drawing, centers[i], (int)radius[i], color, 2 );
         }
         imshow( "Contours", drawing );
-        //imwrite( "second.jpg", drawing );
+
+        imwrite( "second.jpg", drawing );
+
 
     }
 

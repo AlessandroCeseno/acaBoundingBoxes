@@ -11,12 +11,12 @@ iostream
 -
 stdio.h
 -
+opencv2/imgcodecs.hpp
+/Users/xpuser/CLionProjects/acaBoundingBoxes/opencv2/imgcodecs.hpp
 opencv2/highgui.hpp
 /Users/xpuser/CLionProjects/acaBoundingBoxes/opencv2/highgui.hpp
 opencv2/imgproc.hpp
 /Users/xpuser/CLionProjects/acaBoundingBoxes/opencv2/imgproc.hpp
-opencv2/imgcodecs.hpp
-/Users/xpuser/CLionProjects/acaBoundingBoxes/opencv2/imgcodecs.hpp
 
 /Users/xpuser/CLionProjects/acaBoundingBoxes/OMPWorkShare.cpp
 omp.h
