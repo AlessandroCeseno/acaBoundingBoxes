@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -fopenmp -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /usr/local/include -isystem /usr/local/include/opencv 
 

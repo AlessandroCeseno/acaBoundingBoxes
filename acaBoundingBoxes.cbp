@@ -5,7 +5,7 @@
 		<Option title="acaBoundingBoxes"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/xpuser/CLionProjects/acaBoundingBoxes"/>
@@ -43,7 +43,10 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 acaBoundingBoxes"/>
 					<CompileFile command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -57,7 +60,10 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 acaBoundingBoxes/fast"/>
 					<CompileFile command="/usr/bin/make -f &quot;/Users/xpuser/CLionProjects/acaBoundingBoxes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -66,6 +72,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/xpuser/CLionProjects/acaBoundingBoxes/BoundingBoxes.cpp">
+			<Option target="acaBoundingBoxes"/>
+		</Unit>
 		<Unit filename="/Users/xpuser/CLionProjects/acaBoundingBoxes/OMPWorkShare.cpp">
 			<Option target="acaBoundingBoxes"/>
 		</Unit>
@@ -74,6 +83,18 @@
 		</Unit>
 		<Unit filename="/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xpuser/CLionProjects/acaBoundingBoxes/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/xpuser/CLionProjects/acaBoundingBoxes/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/xpuser/CLionProjects/acaBoundingBoxes/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/xpuser/CLionProjects/acaBoundingBoxes/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

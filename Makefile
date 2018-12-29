@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/local/Cellar/cmake/3.13.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -122,6 +122,33 @@ acaBoundingBoxes: cmake_check_build_system
 acaBoundingBoxes/fast:
 	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/build
 .PHONY : acaBoundingBoxes/fast
+
+BoundingBoxes.o: BoundingBoxes.cpp.o
+
+.PHONY : BoundingBoxes.o
+
+# target to build an object file
+BoundingBoxes.cpp.o:
+	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/BoundingBoxes.cpp.o
+.PHONY : BoundingBoxes.cpp.o
+
+BoundingBoxes.i: BoundingBoxes.cpp.i
+
+.PHONY : BoundingBoxes.i
+
+# target to preprocess a source file
+BoundingBoxes.cpp.i:
+	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/BoundingBoxes.cpp.i
+.PHONY : BoundingBoxes.cpp.i
+
+BoundingBoxes.s: BoundingBoxes.cpp.s
+
+.PHONY : BoundingBoxes.s
+
+# target to generate assembly for a file
+BoundingBoxes.cpp.s:
+	$(MAKE) -f CMakeFiles/acaBoundingBoxes.dir/build.make CMakeFiles/acaBoundingBoxes.dir/BoundingBoxes.cpp.s
+.PHONY : BoundingBoxes.cpp.s
 
 OMPWorkShare.o: OMPWorkShare.cpp.o
 
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... acaBoundingBoxes"
+	@echo "... BoundingBoxes.o"
+	@echo "... BoundingBoxes.i"
+	@echo "... BoundingBoxes.s"
 	@echo "... OMPWorkShare.o"
 	@echo "... OMPWorkShare.i"
 	@echo "... OMPWorkShare.s"

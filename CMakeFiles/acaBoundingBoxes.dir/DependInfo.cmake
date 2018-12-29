@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/xpuser/CLionProjects/acaBoundingBoxes/BoundingBoxes.cpp" "/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles/acaBoundingBoxes.dir/BoundingBoxes.cpp.o"
   "/Users/xpuser/CLionProjects/acaBoundingBoxes/OMPWorkShare.cpp" "/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles/acaBoundingBoxes.dir/OMPWorkShare.cpp.o"
   "/Users/xpuser/CLionProjects/acaBoundingBoxes/main.cpp" "/Users/xpuser/CLionProjects/acaBoundingBoxes/CMakeFiles/acaBoundingBoxes.dir/main.cpp.o"
   )
@@ -11,6 +12,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/local/include"
+  "/usr/local/include/opencv"
   )
 
 # Targets to which this target links.
