@@ -56,7 +56,8 @@ public:
         if(indexpage ==1)
         {
             printf(" for now I want to work on just one image %d  \n ",indexpage);
-            Mat src = imread( "../dataFlyers/1.png" );
+            std::string indexpageasstring = std::to_string(indexpage);
+            Mat src = imread( "../dataFlyers/" + indexpageasstring + ".png" );
             if( src.empty() )
             {
                 printf("Could not open or find the image!\n");
