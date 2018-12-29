@@ -17,7 +17,7 @@ class BoundingBoxes
 
 public:
     Mat src_gray;
-    int thresh = 100;
+    int thresh = 225;
     RNG rng = RNG(12345);
 
     void thresh_meth()
@@ -41,7 +41,7 @@ public:
         {
             Scalar color = Scalar( rng.uniform(0, 256), rng.uniform(0,256), rng.uniform(0,256) );
             drawContours( drawing, contours_poly, (int)i, color );
-            rectangle( drawing, boundRect[i].tl(), boundRect[i].br(), color, 2 );
+            //rectangle( drawing, boundRect[i].tl(), boundRect[i].br(), color, 2 );
             //circle( drawing, centers[i], (int)radius[i], color, 2 );
         }
         imshow( "Contours", drawing );
@@ -72,7 +72,7 @@ public:
             const char* source_window = "Source";
             namedWindow( source_window );
             imshow( source_window, src );
-            const int max_thresh = 255;
+            const int max_thresh = 300;
 
             //createTrackbar( "Canny thresh:", source_window, &thresh, max_thresh, thresh_callback );
             //thresh_callback( 0, 0 );
