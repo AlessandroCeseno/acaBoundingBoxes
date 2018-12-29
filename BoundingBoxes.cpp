@@ -46,7 +46,7 @@ public:
         }
         //imshow( "Contours", drawing );
 
-        imwrite("../outputacaBoundingBoxes/seconda.jpg", drawing );
+        imwrite("../outputacaBoundingBoxes/1.jpg", drawing );
     }
 
 
@@ -56,7 +56,7 @@ public:
         if(indexpage ==1)
         {
             printf(" for now I want to work on just one image %d  \n ",indexpage);
-            Mat src = imread( "../data/UnieuroSecondaPagina.png" );
+            Mat src = imread( "../dataFlyers/1.png" );
             if( src.empty() )
             {
                 printf("Could not open or find the image!\n");
