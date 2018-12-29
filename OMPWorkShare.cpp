@@ -7,11 +7,12 @@ class OMPWorkShare
         {
 
 public:
-    int nthreads, tid, i, chunk;
-    int j;
+
 
     void meth()
     {
+        int nthreads, tid, i, chunk;
+        int j;
 
 
     }

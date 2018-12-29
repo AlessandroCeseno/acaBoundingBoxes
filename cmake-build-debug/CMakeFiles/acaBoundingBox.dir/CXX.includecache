@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xpuser/CLionProjects/acaBoundingBox/OMPWorkShare.cpp
+
+/Users/xpuser/CLionProjects/acaBoundingBox/main.cpp
+iostream
+-
+omp.h
+-
+stdio.h
+-
+stdlib.h
+-
+OMPWorkShare.cpp
+/Users/xpuser/CLionProjects/acaBoundingBox/OMPWorkShare.cpp
+
