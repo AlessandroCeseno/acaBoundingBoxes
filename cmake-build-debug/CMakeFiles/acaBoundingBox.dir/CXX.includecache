@@ -25,4 +25,6 @@ stdlib.h
 -
 OMPWorkShare.cpp
 /Users/xpuser/CLionProjects/acaBoundingBox/OMPWorkShare.cpp
+omp.h
+-
 
