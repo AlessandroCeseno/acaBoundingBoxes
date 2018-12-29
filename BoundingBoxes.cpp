@@ -53,9 +53,9 @@ public:
     void workOnThisPage(int indexpage)
     {
         printf(" workOnThisPage %d  \n ",indexpage);
-        if(indexpage ==1)
-        {
-            printf(" for now I want to work on just one image %d  \n ",indexpage);
+        //if(indexpage ==1)
+        //{
+            printf(" for now I want to work on just one image at time  %d  \n ",indexpage);
             std::string indexpageasstring = std::to_string(indexpage);
             Mat src = imread( "../dataFlyers/" + indexpageasstring + ".png" );
             if( src.empty() )
@@ -75,6 +75,6 @@ public:
             thresh_meth(indexpageasstring);
 
             //waitKey();
-        }
+        //}
     }
 };
