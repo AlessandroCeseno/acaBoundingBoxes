@@ -52,10 +52,6 @@ public:
     }
 
 
-
-
-
-
     void workOnThisPage(int indexpage)
     {
         printf(" workOnThisPage %d  \n ",indexpage);
@@ -69,19 +65,17 @@ public:
             }
             cvtColor( src, src_gray, COLOR_BGR2GRAY );
             blur( src_gray, src_gray, Size(3,3) );
-            const char* source_window = "Source";
-            namedWindow( source_window );
-            imshow( source_window, src );
-            const int max_thresh = 300;
+            //show source window
+            //const char* source_window = "Source";
+            //namedWindow( source_window );
+            //imshow( source_window, src );
+            //const int max_thresh = 300;
 
-            //createTrackbar( "Canny thresh:", source_window, &thresh, max_thresh, thresh_callback );
-            //thresh_callback( 0, 0 );
+            //      createTrackbar( "Canny thresh:", source_window, &thresh, max_thresh, thresh_callback );
+            //      thresh_callback( 0, 0 );
             thresh_meth();
 
             waitKey();
-
-
-
         }
     }
 };
