@@ -47,8 +47,7 @@ public:
 
     void workOnThisPage(int indexpage)
     {
-        printf(" workOnThisPage %d  \n ",indexpage);
-        printf(" for now I want to work on just one image at time  %d  \n ",indexpage);
+        printf("I want to work on just one image at time  %d  but to use Parallel Programming \n ",indexpage);
         std::string indexpageasstring = std::to_string(indexpage);
         Mat src = imread( "../dataFlyers/" + indexpageasstring + ".png" );
         if( src.empty() )
