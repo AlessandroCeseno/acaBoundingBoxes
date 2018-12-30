@@ -7,7 +7,7 @@
 
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Hello Advanced Computer Architecture. Here my smart and simple project that works on Computer Vision! " << std::endl;
 
     OMPWorkShare workShare;
     workShare.meth();
