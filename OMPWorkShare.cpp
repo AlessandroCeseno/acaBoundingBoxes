@@ -33,7 +33,7 @@ public:
 #pragma omp for schedule(static,chunk)
             for (j=1; j<= NUMBERPAGES; j++)
             {
-                printf("Thread %d .  The page number is %d  \n",tid,j);
+                printf("Thread %d . The page number is %d  \n",tid,j);
                 boundingBoxes.workOnThisPage(j);
             }
         }
