@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <iostream>
-#include <omp.h>
+//
+// Created by Alex on 2018-12-27.
+//
+
 #include "OMPWorkShare.cpp"
 
 int main()

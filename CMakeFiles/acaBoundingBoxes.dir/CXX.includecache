@@ -29,18 +29,8 @@ BoundingBoxes.cpp
 /Users/xpuser/CLionProjects/acaBoundingBoxes/BoundingBoxes.cpp
 
 /Users/xpuser/CLionProjects/acaBoundingBoxes/main.cpp
-iostream
--
-omp.h
--
-stdio.h
--
-stdlib.h
--
 OMPWorkShare.cpp
 /Users/xpuser/CLionProjects/acaBoundingBoxes/OMPWorkShare.cpp
-omp.h
--
 
 /usr/local/include/boost/assert.hpp
 boost/config.hpp

@@ -1,5 +1,5 @@
 //
-// Created by Alex  on 2018-12-29.
+// Created by Alex on 2018-12-29.
 //
 
 #include <omp.h>
