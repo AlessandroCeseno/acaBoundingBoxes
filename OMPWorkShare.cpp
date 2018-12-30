@@ -27,7 +27,8 @@ public:
             if (tid == 0)
             {
                 nthreads = omp_get_num_threads();
-                printf("Number of threads = %d\n", nthreads);
+                printf("Number of threads is %d\n", nthreads);
+                printf("The chunk is %d \n",chunk);
             }
             printf("Thread %d starting...\n",tid);
 
