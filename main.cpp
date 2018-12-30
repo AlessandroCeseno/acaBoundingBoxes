@@ -5,8 +5,8 @@
 #include "OMPWorkShare.cpp"
 #include <omp.h>
 
-
-int main() {
+int main()
+{
     std::cout << "Hello Advanced Computer Architecture. Here my smart and simple project that works on Computer Vision! " << std::endl;
 
     OMPWorkShare workShare;
