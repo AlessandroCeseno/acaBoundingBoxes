@@ -12,7 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba44c3d5-b63e-447f-9685-bca843b090da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/OMPWorkShare.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OMPWorkShare.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoundingBoxes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BoundingBoxes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acaBoundingBoxes" beforeDir="false" afterPath="$PROJECT_DIR$/acaBoundingBoxes" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -43,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OMPWorkShare.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+            <state relative-caret-position="216">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="44" />
               <folding>
                 <element signature="e#42#58#0" expanded="true" />
               </folding>
@@ -55,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BoundingBoxes.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            <state relative-caret-position="247">
+              <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
               <folding>
                 <element signature="e#41#60#0" expanded="true" />
               </folding>
@@ -107,8 +108,8 @@
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/BoundingBoxes.cpp" />
         <option value="$PROJECT_DIR$/OMPWorkShare.cpp" />
+        <option value="$PROJECT_DIR$/BoundingBoxes.cpp" />
       </list>
     </option>
   </component>
@@ -179,7 +180,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20469000" />
+    <option name="totallyTimeSpent" value="20732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -199,14 +200,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32933334" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44726303" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44726303" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32977304" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32977304" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32843792" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32843792" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32843792" />
@@ -221,9 +222,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/OMPWorkShare.h" />
-    <entry file="file://$PROJECT_DIR$/BoundingBoxes.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BoundingBoxes.h" />
     <entry file="file://$PROJECT_DIR$/CMakeCache.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -250,8 +249,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BoundingBoxes.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="247">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
           <folding>
             <element signature="e#41#60#0" expanded="true" />
           </folding>
@@ -267,8 +266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OMPWorkShare.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="216">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="44" />
           <folding>
             <element signature="e#42#58#0" expanded="true" />
           </folding>

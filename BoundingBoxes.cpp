@@ -49,21 +49,30 @@ public:
     {
         printf("I want to work on just one image at time  %d  but to use Parallel Programming \n ",indexpage);
         std::string indexpageasstring = std::to_string(indexpage);
-        Mat src = imread( "../dataFlyers/" + indexpageasstring + ".png" );
-        if( src.empty() )
+        try
         {
-            printf("Could not open or find the image!\n");
-        }
-        cvtColor( src, src_gray, COLOR_BGR2GRAY );
-        blur( src_gray, src_gray, Size(3,3) );
-        //show source window
-        //const char* source_window = "Source";
-        //namedWindow( source_window );
-        //imshow( source_window, src );
-        //const int max_thresh = 300;
+            Mat src = imread( "../dataFlyers/" + indexpageasstring + ".png" );
+            if( src.empty() )
+            {
+                printf("Could not open or find the image!\n");
+            }
+            cvtColor( src, src_gray, COLOR_BGR2GRAY );
+            blur( src_gray, src_gray, Size(3,3) );
+            //show source window
+            //const char* source_window = "Source";
+            //namedWindow( source_window );
+            //imshow( source_window, src );
+            //const int max_thresh = 300;
 
-        //      createTrackbar( "Canny thresh:", source_window, &thresh, max_thresh, thresh_callback );
-        //      thresh_callback( 0, 0 );
-        thresh_meth(indexpageasstring);
+            //      createTrackbar( "Canny thresh:", source_window, &thresh, max_thresh, thresh_callback );
+            //      thresh_callback( 0, 0 );
+            thresh_meth(indexpageasstring);
+
+        }
+        catch( cv::Exception& e )
+        {
+            const char* err_msg = e.what();
+            std::cout << "exception caught: " << err_msg << std::endl;
+        }
     }
 };
