@@ -1,7 +1,7 @@
-#include <iostream>
-#include <omp.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <iostream>
+#include <omp.h>
 #include "OMPWorkShare.cpp"
 
 int main()
