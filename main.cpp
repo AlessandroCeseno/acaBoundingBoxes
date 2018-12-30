@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "OMPWorkShare.cpp"
-#include <omp.h>
 
 int main()
 {
