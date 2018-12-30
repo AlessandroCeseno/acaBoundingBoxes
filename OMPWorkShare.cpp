@@ -7,7 +7,7 @@
 #include <stdlib.h>
 
 #include "BoundingBoxes.cpp"
-
+#define CHUNKSIZE   1
 #define NUMBERPAGES       15
 
 class OMPWorkShare
@@ -21,6 +21,7 @@ public:
         int nthreads, tid, i, chunk;
         int j;
         BoundingBoxes boundingBoxes = BoundingBoxes();
+        chunk = CHUNKSIZE;
 
 #pragma omp parallel shared(nthreads,chunk) private(i,tid)
         {
@@ -32,18 +33,15 @@ public:
             }
             printf("Thread %d starting...\n",tid);
 
-        }
-
 #pragma omp for schedule(static,chunk)
-        for (j=1; j<= NUMBERPAGES; j++)
-        {
-            //printf("I want to process 10 pages for Flyers \n");
-            //printf("Thread %d: index is %d . It could be the page number \n",tid,j);
-            printf(" INDEX %d \n",j);
+            for (j=1; j<= NUMBERPAGES; j++)
+            {
+                //printf("I want to process 15 pages for Flyers \n");
+                printf("Thread %d: index is %d . It could be the page number \n",tid,j);
+                printf(" INDEX %d \n",j);
 
-            boundingBoxes.workOnThisPage(j);
+                boundingBoxes.workOnThisPage(j);
+            }
         }
-
-
     }
 };
