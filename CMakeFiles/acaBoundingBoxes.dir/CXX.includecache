@@ -21,10 +21,6 @@ opencv2/imgproc.hpp
 /Users/xpuser/CLionProjects/acaBoundingBoxes/OMPWorkShare.cpp
 omp.h
 -
-stdio.h
--
-stdlib.h
--
 BoundingBoxes.cpp
 /Users/xpuser/CLionProjects/acaBoundingBoxes/BoundingBoxes.cpp
 

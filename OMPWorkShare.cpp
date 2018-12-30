@@ -3,8 +3,6 @@
 //
 
 #include <omp.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include "BoundingBoxes.cpp"
 #define CHUNKSIZE   1
 #define NUMBERPAGES       15
