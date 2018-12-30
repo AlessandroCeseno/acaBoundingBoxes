@@ -16,7 +16,7 @@ class OMPWorkShare
 public:
 
 
-    void meth()
+    void elaborate()
     {
         int nthreads, tid, i, chunk;
         int j;
