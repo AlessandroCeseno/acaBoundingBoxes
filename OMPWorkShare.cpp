@@ -36,9 +36,7 @@ public:
             for (j=1; j<= NUMBERPAGES; j++)
             {
                 //printf("I want to process 15 pages for Flyers \n");
-                printf("Thread %d: index is %d . It could be the page number \n",tid,j);
-                printf(" INDEX %d \n",j);
-
+                printf("Thread %d: index is %d . \n The page number is \n",tid,j);
                 boundingBoxes.workOnThisPage(j);
             }
         }
