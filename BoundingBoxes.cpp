@@ -19,6 +19,12 @@ public:
     Mat src_gray;
     int thresh = 225;
     RNG rng = RNG(12345);
+    string directpath;
+    BoundingBoxes(std::string directorypath)
+    {
+        directpath = directorypath;
+    }
+
 
     void thresh_meth(string pagenumber)
     {
@@ -49,7 +55,7 @@ public:
         printf("I want to work on just one image at time  %s  but to use Parallel Programming \n ",pagename.c_str());
         try
         {
-            Mat src = imread( "../dataFlyers/" + pagename );
+            Mat src = imread( directpath + pagename );
             if( src.empty() )
             {
                 printf("Could not open or find the image!\n");

@@ -18,13 +18,17 @@ public:
     {
         int nthreads, tid, i, chunk;
         int j;
-        BoundingBoxes boundingBoxes = BoundingBoxes();
+        std::string directorypath = "../dataFlyers/" ;
+
+        BoundingBoxes boundingBoxes = BoundingBoxes(directorypath);
         chunk = CHUNKSIZE;
+
+        const char * c = directorypath.c_str();
 
         vector <string> namepages;
         DIR *dir;
         struct dirent *ent;
-        if ((dir = opendir ("../dataFlyers/")) != NULL)
+        if ((dir = opendir (c)) != NULL)
         {
             while ((ent = readdir(dir)) != NULL)
             {
