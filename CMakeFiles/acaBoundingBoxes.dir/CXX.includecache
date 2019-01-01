@@ -23,6 +23,12 @@ omp.h
 -
 BoundingBoxes.cpp
 /Users/xpuser/CLionProjects/acaBoundingBoxes/BoundingBoxes.cpp
+stdio.h
+-
+sys/types.h
+-
+dirent.h
+-
 
 /Users/xpuser/CLionProjects/acaBoundingBoxes/main.cpp
 OMPWorkShare.cpp

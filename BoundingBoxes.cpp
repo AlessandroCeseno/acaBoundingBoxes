@@ -40,17 +40,16 @@ public:
             drawContours( drawing, contours_poly, (int)i, color );
             rectangle( drawing, boundRect[i].tl(), boundRect[i].br(), color, 2 );
         }
-        imwrite("../outputacaBoundingBoxes/" + pagenumber + ".jpg", drawing );
+        imwrite("../outputacaBoundingBoxes/" + pagenumber, drawing );
     }
 
 
-    void workOnThisPage(int indexpage)
+    void workOnThisPage(string pagename)
     {
-        printf("I want to work on just one image at time  %d  but to use Parallel Programming \n ",indexpage);
-        std::string indexpageasstring = std::to_string(indexpage);
+        printf("I want to work on just one image at time  %s  but to use Parallel Programming \n ",pagename.c_str());
         try
         {
-            Mat src = imread( "../dataFlyers/" + indexpageasstring + ".png" );
+            Mat src = imread( "../dataFlyers/" + pagename );
             if( src.empty() )
             {
                 printf("Could not open or find the image!\n");
@@ -65,7 +64,7 @@ public:
 
             //      createTrackbar( "Canny thresh:", source_window, &thresh, max_thresh, thresh_callback );
             //      thresh_callback( 0, 0 );
-            thresh_meth(indexpageasstring);
+            thresh_meth(pagename);
 
         }
         catch( cv::Exception& e )
