@@ -8,7 +8,7 @@
 #define NUMBERPAGES       15
 
 class OMPWorkShare
-        {
+{
 
 public:
 

@@ -40,7 +40,6 @@ public:
             drawContours( drawing, contours_poly, (int)i, color );
             rectangle( drawing, boundRect[i].tl(), boundRect[i].br(), color, 2 );
         }
-        //imshow( "Contours", drawing );
         imwrite("../outputacaBoundingBoxes/" + pagenumber + ".jpg", drawing );
     }
 
