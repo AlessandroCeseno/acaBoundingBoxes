@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <sys/types.h>
 #include <dirent.h>
-#define CHUNKSIZE   1
+#define CHUNKSIZE   5
 
 class OMPWorkShare
 {
@@ -18,7 +18,7 @@ public:
     {
         int nthreads, tid, i, chunk;
         int j;
-        std::string directorypath = "../dataFlyers/" ;
+        std::string directorypath = "../dataFlyers150/" ;
 
         BoundingBoxes boundingBoxes = BoundingBoxes(directorypath);
         chunk = CHUNKSIZE;
