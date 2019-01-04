@@ -19,14 +19,14 @@ public:
     Mat src_gray;
     int thresh = 225;
     RNG rng = RNG(12345);
-    string directpath;
-    BoundingBoxes(std::string directorypath)
+    string direct_path;
+    BoundingBoxes(std::string directory_path)
     {
-        directpath = directorypath;
+        direct_path = directory_path;
     }
 
 
-    void thresh_meth(string pagenumber)
+    void thresh_meth(string page_number)
     {
         Mat canny_output;
         Canny( src_gray, canny_output, thresh, thresh*2 );
@@ -46,23 +46,23 @@ public:
             drawContours( drawing, contours_poly, (int)i, color );
             rectangle( drawing, boundRect[i].tl(), boundRect[i].br(), color, 2 );
         }
-        imwrite("../outputacaBoundingBoxes/" + pagenumber, drawing );
+        imwrite("../outputacaBoundingBoxes/" + page_number, drawing );
     }
 
 
-    void workOnThisPage(string pagename)
+    void workOnThisPage(string page_name)
     {
-        printf("I want to work on just one image at time  %s  but to use Parallel Programming \n ",pagename.c_str());
+        printf("I want to work on just one image at time  %s  but to use Parallel Programming \n ",page_name.c_str());
         try
         {
-            Mat src = imread( directpath + pagename );
+            Mat src = imread( direct_path + page_name );
             if( src.empty() )
             {
                 printf("Could not open or find the image!\n");
             }
             cvtColor( src, src_gray, COLOR_BGR2GRAY );
             blur( src_gray, src_gray, Size(3,3) );
-            thresh_meth(pagename);
+            thresh_meth(page_name);
 
         }
         catch( cv::Exception& e )
