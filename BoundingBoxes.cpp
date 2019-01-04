@@ -4,16 +4,14 @@
 
 #include <iostream>
 #include <stdio.h>
-
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/highgui.hpp"
 #include "opencv2/imgproc.hpp"
-
 using namespace cv;
 using namespace std;
 
 class BoundingBoxes
-        {
+{
 
 public:
     Mat src_gray;
@@ -26,7 +24,7 @@ public:
     }
 
 
-    void threshMeth(string page_number)
+    void thresh_meth(string page_number)
     {
         Mat canny_output;
         Canny( src_gray, canny_output, thresh, thresh*2 );
