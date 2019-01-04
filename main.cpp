@@ -4,14 +4,14 @@
 int main()
 {
     std::cout << "Hello Advanced Computer Architecture. Here my smart and simple project that works on Computer Vision! " << std::endl;
-    double startTime = omp_get_wtime();
+    double start_time = omp_get_wtime();
 
     OMPWorkShare workShare;
     workShare.elaborate();
 
-    double endTime = omp_get_wtime();		// registers the second time
-    double totalTime = endTime-startTime;
-    printf("Parallel implementation, Seconds: %f ", totalTime);
+    double end_time = omp_get_wtime();
+    double total_time = end_time-start_time;
+    printf("Parallel implementation, Seconds: %f ", total_time);
 
     return 0;
 }
