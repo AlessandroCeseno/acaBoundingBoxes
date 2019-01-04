@@ -15,7 +15,6 @@ int main()
 
     double endTime = omp_get_wtime();		// registers the second time
     double totalTime = endTime-startTime;
-    // PRINT RESULTS
     printf("Parallel implementation, Seconds: %f ", totalTime);
 
     /*
