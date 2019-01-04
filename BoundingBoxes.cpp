@@ -26,7 +26,7 @@ public:
     }
 
 
-    void thresh_meth(string page_number)
+    void threshMeth(string page_number)
     {
         Mat canny_output;
         Canny( src_gray, canny_output, thresh, thresh*2 );
@@ -62,7 +62,7 @@ public:
             }
             cvtColor( src, src_gray, COLOR_BGR2GRAY );
             blur( src_gray, src_gray, Size(3,3) );
-            thresh_meth(page_name);
+            threshMeth(page_name);
 
         }
         catch( cv::Exception& e )
