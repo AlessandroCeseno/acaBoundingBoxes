@@ -17,15 +17,14 @@ public:
     void elaborate()
     {
         int nthreads, tid, i, chunk;
-        int j;
-        std::string directorypath = "../dataFlyers150/" ;
+        std::string directory_path = "../dataFlyers150/" ;
 
-        BoundingBoxes boundingBoxes = BoundingBoxes(directorypath);
+        BoundingBoxes boundingBoxes = BoundingBoxes(directory_path);
         chunk = CHUNKSIZE;
 
-        const char * c = directorypath.c_str();
+        const char * c = directory_path.c_str();
 
-        vector <string> namepages;
+        vector <string> name_pages;
         DIR *dir;
         struct dirent *ent;
         if ((dir = opendir (c)) != NULL)
@@ -34,7 +33,7 @@ public:
             {
                 if( strcmp(ent->d_name, ".") != 0 && strcmp(ent->d_name, "..") != 0 )
                 {
-                    namepages.push_back(ent->d_name);
+                    name_pages.push_back(ent->d_name);
                 }
             }
             closedir(dir);
@@ -52,10 +51,10 @@ public:
             printf("Thread %d starting...\n",tid);
 
 #pragma omp for schedule(static,chunk)
-            for (j=0; j < namepages.size(); j++)
+            for (i=0; i < name_pages.size(); i++)
             {
-                printf("Thread %d . The page number is %d  \n",tid,j);
-                boundingBoxes.workOnThisPage(namepages[j]);
+                printf("Thread %d . The page number is %d  \n",tid,i);
+                boundingBoxes.workOnThisPage(name_pages[i]);
             }
         }
     }
