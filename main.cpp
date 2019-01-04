@@ -14,9 +14,9 @@ int main()
     workShare.elaborate();
 
     double endTime = omp_get_wtime();		// registers the second time
-    double tottime = endTime-startTime;
+    double totalTime = endTime-startTime;
     // PRINT RESULTS
-    printf("Seconds: %f ", tottime);
+    printf("Parallel implementation, Seconds: %f ", totalTime);
 
     /*
     stop = clock();
@@ -25,7 +25,6 @@ int main()
     double elapsed_milliseconds = (double)(stop - start) * 1000.0 / CLOCKS_PER_SEC;
     printf("Time elapsed in milliseconds: %f \n", elapsed_milliseconds);
     */
-
 
     return 0;
 }
