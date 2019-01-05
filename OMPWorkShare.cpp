@@ -17,7 +17,7 @@ public:
     void elaborate()
     {
         int nthreads, tid, i, chunk;
-        std::string directory_path = "../dataFlyers150/" ;
+        std::string directory_path = "../dataFlyers/" ;
 
         BoundingBoxes boundingBoxes = BoundingBoxes(directory_path);
         chunk = CHUNKSIZE;

@@ -24,7 +24,7 @@ public:
     }
 
 
-    void thresh_meth(string page_number)
+    void threshMeth(string page_number)
     {
         Mat canny_output;
         Canny( src_gray, canny_output, thresh, thresh*2 );
